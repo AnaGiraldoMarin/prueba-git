@@ -1,7 +1,7 @@
 #!/bin/bash
 #Ana Maria Giraldo
-echo Mi primer repositorio inicio a
+echo Mi N-esimo repositorio inicio a
 date +%H:%M
-echo Mis Interfaces:
-echo 
-ip a
+echo IP a hacer ping:
+read direccion
+ping $direccion -c10
