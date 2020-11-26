@@ -8,4 +8,4 @@ echo Mi primer repositorio inicio a
 date +%H:%M
 echo IP a hacer ping:
 read direccion
-ping $direccion -c5
+ping $direccion -c3
